@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Sign up for facebook </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="icon" href="./photos/facebook1.jpg">
+    <style>
+        body{
+            background-color: whitesmoke;
+        }
+        div{
+            width: 410px;
+            height: 640px;
+            border:2px solid white;
+            background-color: white;
+            border-radius: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            box-shadow: 2px 2px 5px black,2px 2px 5px black,-2px -2px 5px black,-2px -2px 5px black;
+        }
+        #head{
+            text-align: center;
+            font-size: 60px;
+            color: rgb(19, 106, 237);
+            font-family: Arial, Helvetica, sans-serif;
+            padding-bottom:1px;
+            margin-bottom: 2px;
+           
+        }
+        h1{
+            margin-top: 3px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+        }
+        #under{
+            color: darkgray;
+            padding-bottom: 5px;
+        }
+        .name{
+            width:190px;
+            height:30px;
+            border-radius: 5px;
+            border: 2px solid gray;
+            margin-bottom: 5px;
+        }
+        .name:hover{
+            outline: 2px solid red;
+        }
+        #num{
+            width:390px;
+            height:30px;
+            border-radius: 5px;
+            border: 2px solid gray;
+            margin-bottom: 5px;
+        }
+        #num:hover{
+            outline: 2px solid red;
+        }
+        #pass{
+            width:390px;
+            height:30px;
+            border-radius: 5px;
+            border: 2px solid gray;
+            margin-bottom: 5px;
+        }
+        #pass:hover{
+            outline: 2px solid red;
+        }
+        #dy{
+            text-align: left;
+            margin-bottom: 5px;
+        }
+        i{
+        font-size:13px;
+        color:#00000;
+    }
+        #sel{
+            width:130px;
+            height:30px;
+            border-radius: 5px;
+            border: 2px solid gray;
+            margin-bottom: 5px;
+        }
+        #mm{
+            width:130px;
+            height:30px;
+            border-radius: 5px;
+            border: 2px solid gray;
+            margin-bottom: 5px;
+            
+        }
+        #yy{
+            width:130px;
+            height:30px;
+            border-radius: 5px;
+            border: 2px solid gray;
+            margin-bottom: 5px;
+        }
+        #gen{
+            text-align:start;
+            margin-bottom: 5px;
+        }
+        #ma{
+            border-radius: 5px;
+            border: 2px solid gray;
+            padding:5px 28px 5px 28px;
+            margin-bottom: 5px;
+            
+        }
+        #maa{
+            border-radius: 5px;
+            border: 2px solid gray;
+            padding:5px 28px 5px 28px;
+            margin-bottom: 5px;
+        }
+        #faa{
+            border-radius: 5px;
+            border: 2px solid gray;
+            padding:5px 28px 5px 28px;
+            font-size: larger;
+            margin-bottom: 5px;
+        }
+        #gra{
+            font-size:15px;
+            text-align: justify;
+            margin-bottom: 5px;
+        }
+        #par{
+            font-size:15px;
+            text-align: justify;
+            margin-bottom: 5px;
+        }
+        #log{
+            width: 200px;
+            height: 40px;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: green;
+            font-size: larger;
+            color: white;
+            margin-bottom: 5px;
+        }
+        #log:hover{
+            background-color:rgb(29, 230, 29) ;
+        }
+        #anch{
+            font-size: larger;
+            text-decoration:none;
+            color: rgb(54, 54, 232);
+            margin-bottom: 5px;
+        }
+        #pri{
+            font-size:5px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="head">facebook</h1>
+    <center>
+        <div>
+            <h1>Create a new account</h1>
+            <p id="under">It's quick and easy.</p>
+            <hr>
+            <form>
+                <input class="name"  type="text" placeholder="First name" required>
+                <input class="name" type="text" placeholder="Surname" required>
+                <br>
+                <br>
+                <input  id="num" type="text" placeholder="Mobile number or email address" required>
+                <br><br>    
+                <input id="pass" type="password" placeholder="New password"   oninput="magic()">
+                <p id="pri"></p>
+                <p id="dy" > Date of birth<i class="fas fa-circle-question">  </i> </p> 
+                <select id="sel" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                </select>
+                <select id="mm" required>
+                <option value="01">Jan</option>
+                <option value="02">Feb</option>
+                <option value="03">Mar</option>
+                <option value="04">Apr</option>
+                <option value="05">May</option>
+                <option value="06">Jun</option>
+                <option value="07">Jul</option>
+                <option value="08">Aug</option>
+                <option value="09">Sep</option>
+                <option value="10">Oct</option>
+                <option value="11">Nov</option>
+                <option value="12">Dec</option>
+                </select>
+                <select id="yy" required>
+                <option value="1950">1950</option>
+                <option value="1951">1951</option>
+                <option value="1952">1952</option>
+                <option value="1953">1953</option>
+                <option value="1954">1954</option>
+                <option value="1955">1955</option>
+                <option value="1956">1956</option>
+                <option value="1957">1957</option>
+                <option value="1958">1958</option>
+                <option value="1959">1959</option>
+                <option value="1960">1960</option>
+                <option value="1961">1961</option>
+                <option value="1962">1962</option>
+                <option value="1963">1963</option>
+                <option value="1964">1964</option>
+                <option value="1965">1965</option>
+                <option value="1966">1966</option>
+                <option value="1967">1967</option>
+                <option value="1968">1968</option>
+                <option value="1969">1969</option>
+                <option value="1970">1970</option>
+                <option value="1971">1971</option>
+                <option value="1972">1972</option>
+                <option value="1973">1973</option>
+                <option value="1974">1974</option>
+                <option value="1975">1975</option>
+                <option value="1976">1976</option>
+                <option value="1977">1977</option>
+                <option value="1978">1978</option>
+                <option value="1979">1979</option>
+                <option value="1980">1980</option>
+                <option value="1981">1981</option>
+                <option value="1982">1982</option>
+                <option value="1983">1983</option>
+                <option value="1984">1984</option>
+                <option value="1985">1985</option>
+                <option value="1986">1986</option>
+                <option value="1987">1987</option>
+                <option value="1988">1988</option>
+                <option value="1989">1989</option>
+                <option value="1990">1990</option>
+                <option value="1991">1991</option>
+                <option value="1992">1992</option>
+                <option value="1993">1993</option>
+                <option value="1994">1994</option>
+                <option value="1995">1995</option>
+                <option value="1996">1996</option>
+                <option value="1997">1997</option>
+                <option value="1998">1998</option>
+                <option value="1999">1999</option>
+                <option value="2000">2000</option>
+                <option value="2001">2001</option>
+                <option value="2002">2002</option>
+                <option value="2003">2003</option>
+                <option value="2004">2004</option>
+                <option value="2005">2005</option>
+                <option value="2006">2006</option>
+                <option value="2007">2007</option>
+                <option value="2008">2008</option>
+                <option value="2009">2009</option>
+                <option value="2010">2010</option>
+                <option value="2011">2011</option>
+                <option value="2012">2012</option>
+                <option value="2013">2013</option>
+                <option value="2014">2014</option>
+                <option value="2015">2015</option>
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+                </select>
+                <p id="gen" >Gender<i class="fas fa-circle-question">  </i></p>
+                <label id="ma" >Male
+                <input type="radio" name="sex" required></label>
+                <label id="maa">Female
+                <input type="radio" name="sex" required></label>
+                <label id="faa">Custom
+                <input type="radio" name="sex" required>
+                </label>
+                <br>
+                <p id="gra">People who use our service may have uploaded your contact information to Facebook. <a href="https://www.facebook.com/help/637205020878504">Learn more.</a></p>
+                <p id="par">By clicking Sign Up, you agree to our <a href="https://www.facebook.com/legal/terms/update">Terms</a>,<a href="https://www.facebook.com/privacy/policy/?entry_point=data_policy_redirect&entry=0"> Privacy Policy</a> and <a href="https://www.facebook.com/privacy/policies/cookies/?entry_point=cookie_policy_redirect&entry=0">Cookies Policy</a>. You may receive SMS notifications from us and can opt out at any time.</p>
+                <br>
+                <input id="log" type="submit" value="Sign up">
+                <br>
+                <a id="anch" href="file:///D:/HTML16/JAVA%20SCRIPT/facebook%20login%20page.html"> <p>Already have an account?</p></a>  
+                
+            </form>
+        </div>
+    </center>
+    <script>
+    function magic()
+    {
+        var x=document.getElementById('pass').value
+        if(x.length>=1 && x.length<5)
+        {
+            document.getElementById('pri').innerHTML="WEAK PASSWORD"
+            document.getElementById('pass').style.border="2px solid red"
+            document.getElementById('pass').style.outline="2px solid red"
+            document.getElementById('pri').style.color="red"
+         }
+        else if(x.length>=6 && x.length<10)
+        {
+            document.getElementById('pri').innerHTML="STRONG PASSWORD"
+            document.getElementById('pass').style.border="2px solid blue"
+            document.getElementById('pass').style.outline="2px solid blue"
+            document.getElementById('pri').style.color="blue"
+         }
+        else if(x.length>=11 && x.length<15)
+        {
+            document.getElementById('pri').innerHTML="EXCELLENT PASSWORD"
+            document.getElementById('pass').style.border="2px solid limegreen"
+            document.getElementById('pass').style.outline="2px solid limegreen"
+            document.getElementById('pri').style.color="limegreen"
+
+        }
+        else
+        {
+            document.getElementById('pri').innerHTML=""
+        }
+        
+    }
+</script>
+</body>
+</html>

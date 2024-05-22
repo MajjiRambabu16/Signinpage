@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Facebook Login page</title>
+    <link rel="icon" href="./photos/facebook1.jpg">
+    <style>
+        body{
+            background-color:whitesmoke ;
+        }
+        #b{
+            width: 400px;
+            height:350px;
+            border: 2px solid white;
+            background-color: white;
+            border-radius: 20px;
+            margin: 100px 0px 100px 400px;
+            box-shadow: 2px 2px 5px black,2px 2px 5px black,-2px -2px 5px black,-2px -2px 5px black;
+            margin-top: 2px;
+        }
+        .a{
+            width: 350px;
+            height: 35px;
+            border-radius: 10px;
+            border: 1px solid gray;
+        }
+        .a:hover{
+            outline: 1px solid blue;
+            display: inline;
+        }
+        #log{
+            background-color: blue;
+            width: 350px;
+            height: 35px;
+            color: white;
+            font-size: medium;
+            border-radius: 10px;
+        }
+        #log:hover{
+            background-color: #1877f2;
+        }
+        #crea{
+            background-color:rgb(11, 211, 11);
+            width: 200px;
+            height: 35px;
+            color: white;
+            font-size: large;
+            border-radius: 10px;
+        }
+        #crea:hover{
+            background: #42b72a;
+        }
+       #inp{
+            text-decoration: none;
+            text-align: center;
+        }
+        #anc{
+            text-decoration: none;
+            text-align: center;
+            line-height: 10px;
+            
+        }
+        #r{
+            text-decoration: none;
+            color: black;
+        }
+        #head{
+            font-size: 60px;
+            color: rgb(19, 106, 237);
+            font-family: Arial, Helvetica, sans-serif;
+            padding-bottom:1px;
+            margin-bottom: 10px;
+            padding-left: 380px;
+            margin-top: 20px;
+           
+        }
+
+    </style>
+</head>
+<body>
+    <center>
+        <div>
+        <h1 id="head">facebook</h1>
+    </div>
+        <div id="b">
+            <form>
+                <br>
+                <input class="a" type="text" placeholder="Email Address or Phone number" required>
+                <br>
+                <br>
+                <input class="a"  type="password" placeholder="Password" minlength="5" maxlength="10" pattern="[A-Z]{1,2} [a-z]{1,2} [0-9]{1,2}" required>
+                <br>
+                <br>
+                <input  id="log" type="submit" value="Log in" >
+                <a id="inp" href="#" ><p >forgotten password?</p></a>
+                <a id="anc" href="file:///D:/HTML16/JAVA%20SCRIPT/facebook%20sign%20in%20page.html?"><p id="sign">Sign up for Facebook</p></a>
+                <br>
+                <hr>
+                <br>
+                <input id="crea" type="submit" value="Create New Account">
+                <br>
+                <br>
+                <br>
+                <p id="mov"><a  id="r" href="https://www.facebook.com/pages/create/?ref_type=registration_form"><b>create a page</b></a> for a celebrity,brand or business</p>
+            </form>
+        </div>
+    </center>
+</body>
+</html>
